@@ -73,7 +73,7 @@ class ViewController: UIViewController {
         {
             return true
         }
-        if thisSymbol(b1, s) && thisSymbol(b2, s) && thisSymbol(b3, s)
+        if thisSymbol(a2, s) && thisSymbol(b2, s) && thisSymbol(b3, s)
         {
             return true
         }
@@ -81,6 +81,7 @@ class ViewController: UIViewController {
         {
             return true
         }
+        
         
         if thisSymbol(a1, s) && thisSymbol(b1, s) && thisSymbol(c1, s)
         {
@@ -94,6 +95,7 @@ class ViewController: UIViewController {
         {
             return true
         }
+        
         
         
         if thisSymbol(a1, s) && thisSymbol(b2, s) && thisSymbol(c3, s)
